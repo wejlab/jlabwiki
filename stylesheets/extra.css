@@ -1,0 +1,18 @@
+.wm-toc-li.wm-current,
+.wm-toc-li.wm-current:hover {
+  background-color: #b23c24 !important;
+}
+
+.navbar {
+  background-color: #b23c24 !important;  /* Replace with your desired color */
+  border: none !important;
+  box-shadow: none !important;
+}
+
+body, html {
+  font-family: "", serif !important;  /* Replace with your desired font */
+}
+
+footer, .md-footer {
+  display: none !important;
+}
