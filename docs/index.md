@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# Welcome!
+## The Johnson Lab Wiki
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is a **collaborative** knowledge base for members of the W. Evan Johnson Lab
+at Rutgers University.
 
-## Commands
+This wiki is built using MkDocs. Check out [this guide](https://www.mkdocs.org/user-guide/writing-your-docs/) 
+for a detailed introduction on how to navigate and edit the wiki via Github.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+If you have ideas on how to improve the wiki or about new content you would like to be added, 
+write something on the "Wiki Ideas" page.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<div style="text-align: center;">
+  <img src="img/ARO_red_rocks.jpg" alt="Corona Arch Trail, UT" width="450"/>
+</div>

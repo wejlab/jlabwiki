@@ -1,1 +1,27 @@
-site_name: My Docs
+site_name: The Johnson Lab Wiki
+site_description: "Collaborative Knowledge Hub for the W. Evan Johnson Lab at Rutgers University"
+site_author: "Johnson Lab Members"
+  
+repo_url: https://github.com/wejlab
+repo_name: 'GitHub'
+ 
+nav:
+    - Home: 'index.md'
+    - Lab Meeting:
+        - 'lab_meeting/lab_meeting.md'
+    - Learning Resources:
+        - 'learning_resources/landing.md'
+    - Quick Links: 'quicklinks.md'
+    - Lab Retreat:
+        - 'lab_retreat/lab_retreat_2025.md'
+    - Personal Pages: 
+        - 'personalpages.md'
+        - Aubrey Odom: 'personal_pages/aubrey_odom.md'
+    - Wiki Ideas: 'wiki_ideas.md'
+ 
+extra_css:
+- stylesheets/extra.css
+theme:
+    name: windmill
+    search_index_only: true
+    include_search_page: true
