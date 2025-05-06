@@ -9,8 +9,15 @@
   box-shadow: none !important;
 }
 
+@font-face {
+  font-family: "Prima Serif Roman";
+  src: url("../fonts/Prima_Serif_Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body, html {
-  font-family: "", serif !important;  /* Replace with your desired font */
+  font-family: "Prima Serif Roman" !important;
 }
 
 footer, .md-footer {
