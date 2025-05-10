@@ -4,16 +4,19 @@ site_author: "Johnson Lab Members"
   
 repo_url: https://github.com/wejlab
 repo_name: 'GitHub'
- 
+
 nav:
     - Home: 'index.md'
-    - Lab Meeting:
-        - 'lab_meeting/lab_meeting.md'
+    - Quick Links: 'quicklinks.md'
+    - Lab Resources:
+        - 'annual_checkin.md'
+        - 'lab_meeting.md'
+        - 'slack.md'
+        - 'lab_retreat_2025.md'
+        - 'grant_timelines.md'
+        - 'grant_outline.md'
     - Learning Resources:
         - 'learning_resources/landing.md'
-    - Quick Links: 'quicklinks.md'
-    - Lab Retreat:
-        - 'lab_retreat/lab_retreat_2025.md'
     - Personal Pages: 
         - 'personalpages.md'
         - Aubrey Odom: 'personal_pages/aubrey_odom.md'

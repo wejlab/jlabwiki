@@ -9,3 +9,5 @@ Please add topics that you would like to see on the wiki! Vague ideas are ok
  - Aubrey - intro to Bioconductor package development
  - How to write effective R code
  - Links to lab posters
+ - List of working J Lab R Packages
+ - Recommended tools for various Bioinfo analyses
