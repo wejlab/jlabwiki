@@ -1,6 +1,6 @@
-# **Grant Timeline Expectations**
+# Grant Timeline Expectations
 
-**1 year in advance:**
+## 1 year in advance
 
 Formal discussion w/Evan to create goals for the year, including:
 
@@ -8,7 +8,7 @@ Formal discussion w/Evan to create goals for the year, including:
 - Projects you work on – where will your funding come from?
 - Other work, mentorship, tasks to complete
 
-**3 months in advance:**
+## 3 months in advance
 
 Discussion/lab meeting of the goal of the grant, including what will be in the grant
 
@@ -16,7 +16,7 @@ Discuss with Evan roles and responsibilities for the grant
 
 **Notify Rutgers staff (Karina) of a plan for grant, discuss modifications to this timeline**
 
-**2 months in advance:**
+## 2 months in advance
 
 Specific aims page written and shared with the lab to request feedback
 
@@ -29,11 +29,11 @@ Lab Presentation (or presentation to Evan), which includes:
 - The Aims
 - The preliminary data already have or will need to support these aims
 
-**6 weeks in advance:**
+## 6 weeks in advance
 
 Outline for entire grant written
 
-**1 month in advance:**
+## 1 month in advance
 
 Preliminary data complete and written about and figures completed
 
@@ -41,16 +41,16 @@ Figures specific to the Aims (how they connect/flow with each other) shared w/Je
 
 **Karina receives abstract, budget and budget justification**
 
-**2 weeks in advance:**
+## 2 weeks in advance
 
 All grant paperwork completed and submitted (Biosketch, justifications, sharing plans, etc)
 
 Completed Draft shared with Evan
 
-**1 week in advance:**
+## 1 week in advance
 
 Completed Grant shared with all coinvestigators/relevant collaborators
 
-**1 day (or morning of submission)**
+## 1 day (or morning of submission)
 
 Final science, Aims, Research Plan, References submitted to Karina

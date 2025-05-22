@@ -16,6 +16,9 @@ Here is a collection of resources that may be useful to lab members.
 
 ## R Package Development
 
+[Integrating git and Rstudio](https://happygitwithr.com/)
+- A great little tutorial on how to instantaneously use the git functionality in RStudio. It's so easy!
+
 [R Packages (2e)](https://r-pkgs.org/)
 - Book by Hadley Wickham and Jennifer Bryan
 
