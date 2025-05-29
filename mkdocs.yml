@@ -1,7 +1,7 @@
 site_name: The Johnson Lab Wiki
 site_description: "Collaborative Knowledge Hub for the W. Evan Johnson Lab at Rutgers University"
 site_author: "Johnson Lab Members"
-  
+
 repo_url: https://github.com/wejlab
 repo_name: 'GitHub'
 
@@ -10,6 +10,13 @@ nav:
     - Quick Links: 'quicklinks.md'
     - Lab Resources:
         - 'annual_checkin.md'
+        - Code Review:
+            - 'code_review/code_review_overview.md'
+            - 'code_review/general_code_review.md'
+            - 'code_review/informal_code_review.md'
+            - 'code_review/lab_meeting_code_review.md'
+            - 'code_review/manuscript_code_review.md'
+            - 'code_review/tips_code_review.md'
         - 'lab_meeting.md'
         - 'slack.md'
         - 'lab_retreat_2025.md'
@@ -17,11 +24,11 @@ nav:
         - 'grant_outline.md'
     - Learning Resources:
         - 'learning_resources/landing.md'
-    - Personal Pages: 
+    - Personal Pages:
         - 'personalpages.md'
         - Aubrey Odom: 'personal_pages/aubrey_odom.md'
     - Wiki Ideas: 'wiki_ideas.md'
- 
+
 extra_css:
 - stylesheets/extra.css
 theme:
