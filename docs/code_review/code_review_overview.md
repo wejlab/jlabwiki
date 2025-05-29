@@ -10,9 +10,9 @@ submission code review. In addition, a resource section is provided to point
 lab members to style guides, R packages that can help automate portions of code 
 review, and other helpful resources.
 
-For more details, please see:
-- [General Code Review](code_review/general_code_review.md)
-- [Informal Code Review](code_review/informal_code_review.md)
-- [Lab Meeting Code Review](code_review/lab_meeting_code_review.md)
-- [Manuscript Submission Code Review](code_review/manuscript_code_review.md)
-- [Tips and Resources for Developers](code_review/tips_code_review.md')
+For more details, please see:  
+- [General Code Review](code_review/general_code_review.md) 
+- [Informal Code Review](code_review/informal_code_review.md) 
+- [Lab Meeting Code Review](code_review/lab_meeting_code_review.md) 
+- [Manuscript Submission Code Review](code_review/manuscript_code_review.md) 
+- [Tips and Resources for Developers](code_review/tips_code_review.md') 
