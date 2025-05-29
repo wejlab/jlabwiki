@@ -1,49 +1,58 @@
-# General Guidelines
+# General Code Review Guidelines
 
-## For the Developer
-To enable a successful code review, the developer should provide the reviewer(s) 
-with:
--	A written description of the Goal/Objective of the Code
--	A written description of all inputs 
--	Provide a sample input/dataset
--	The code (150-200 lines of code at a time)
+## For Developers
 
-## For the Reviewer
-The reviewer should:
-- Expect to spend about 1 hour per 200 lines of code
-- Evaluate the code in the following ways:
-    - Does the output meet the stated goal and does it run successfully?
-    - Is the code well commented?
-    - Is there repeated code that could be eliminated through use of a function?
-    - Are there any functions or methods you know of that could improve 
-    efficiency?
-    - Is the code readable?
-    - Are there edge cases that should be considered or checks that should be 
-    created (especially important if others will use the code)?
-    - What did you learn from the code that you would use in the future?
-- Provide a written summary including constructive feedback AND positive praise
-- Provide prompt review (Developer is unlikely to move forward without feedback)
+To support an effective code review, developers should provide reviewers with:
 
-## Feedback Format
-- Completely Virtual:
-    - Developer provides code file and data file (or code/location of data)
-    - Reviewer provides a written document in return, like a manuscript review
-    - Agree upon an expected turnaround time
-- Hybrid:
-    - Reviewer provides real-time comments w/written notes on needed changes
-    - Ideally:
-        - Developer and Review choose a meeting day and time (Ex: Wed 3pm)
-        - Code is provided end of business day 2 days before the meeting (Mon)
-        - Meeting occurs, feedback can be discussed, outstanding issues are 
-        directly shared in written format
+- A **brief written description** of the code's **goal or objective**
+- A **clear explanation of all inputs**
+- A **sample input or dataset**
+- A **code chunk of 150–200 lines** (maximum per review session)
 
-# Setting Specific Expectations
-The general guidelines outlined above can and should be adapted based on the
-type of review being completed. Lab members are expected to routinely be 
-involved in informal, lab meeting, and manuscript reviews. Additional details 
-and modifications for each of these settings are outlined in the locations
-below:
+## For Reviewers
 
-- [Informal Code Review](code_review/informal_code_review.md)
-- [Lab Meeting Code Review](code_review/lab_meeting_code_review.md)
-- [Manuscript Submission Code Review](code_review/manuscript_code_review.md)
+Reviewers should:
+
+- Plan to spend **~1 hour per 200 lines of code**
+- Evaluate the code by considering:
+    - Does the code run successfully and produce the intended output?
+    - Is the code **well commented** and easy to follow?
+    - Could **repeated code** be refactored into functions?
+    - Are there **more efficient methods or functions** that could be used?
+    - Is the **code readable and well-organized**?
+    - Are **edge cases or input checks** addressed (especially for shared code)?
+    - What did you learn that you might apply in your own work?
+- Provide a **written summary** that includes:
+    - **Constructive suggestions**
+    - **Positive feedback**
+- Aim to provide feedback **promptly**, so the developer isn't blocked from progressing
+
+## Feedback Formats
+
+### Offline Exchange
+
+- Developer sends:
+    - Code file
+    - Data file or data access instructions
+- Reviewer responds with:
+    - A **written review**, similar to a manuscript critique
+- Both parties **agree on a turnaround time**
+
+### Real-time Meeting (Preferred)
+
+- Reviewer provides:
+    - **Real-time comments**
+    - **Written notes** summarizing needed changes
+- Ideal workflow:
+    - Developer and reviewer **schedule a meeting** (e.g., Wednesday at 3 PM)
+    - Code is shared **two business days before** (e.g., by EOD Monday)
+    - Meeting held for discussion
+    - Any unresolved items are **followed up in writing**
+
+## Setting Specific Expectations
+
+These general guidelines should be adapted depending on the review context. Lab members are expected to participate regularly in the following review types:
+
+- [Informal Code Review](informal_code_review.md)
+- [Lab Meeting Code Review](lab_meeting_code_review.md)
+- [Manuscript Submission Code Review](manuscript_code_review.md)

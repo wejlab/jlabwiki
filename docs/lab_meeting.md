@@ -14,8 +14,13 @@ Presenters should shoot for ~15 minutes followed by ~10. minutes for questions a
 
 Note: If you don’t have any research updates, please present a paper in your field that is of interest to you and/or others in the lab!
 
+## Presenter Code Review
 Presenters should also prepare for a short code review after presenting on their
-science topic. The code review should include a 5 min intro to the code, 10
+science topic. 
+
+The code review should include a 5 min intro to the code, 10
 minutes for lab members to review the code indepently, 10 min code walk through,
-and 10 minutes for feedback/questions. More information can be found on the
-[Lab Meeting Code Review](code_review/lab_meeting_code_review) page.
+and 10 minutes for feedback/questions. 
+
+More information can be found on the
+[Lab Meeting Code Review](code_review/code_review_overview.md) page.

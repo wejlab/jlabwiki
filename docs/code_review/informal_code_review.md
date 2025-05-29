@@ -1,9 +1,20 @@
-# Informal Code Review
-Informal code reviews occur as needed by individuals within their assigned pods.
-As a general guideline, informal code reviews should at least be utilized when 
-an individual has added a new feature to a package or analysis or when an 
-individual has been dealing with a bug for an extended period (more than a few 
-hours/a day). Individuals are encouraged to use pod meetings to hold reviews, 
-but may also schedule time outside of these meetings and/or use Slack. Pods 
-working on more code-heavy projects (package creation, analyses) may choose (or 
-be asked) to incorporate lab reviews into their weekly structure.
+# Informal Code Reviews
+
+Informal code reviews are conducted as needed within each assigned pod.
+
+## When to Initiate a Review
+
+As a general guideline, informal code reviews should be considered in the following situations:
+
+- When a new feature has been added to a package or analysis.
+- When someone has been troubleshooting a bug for an extended period (e.g., more than a few hours or a full day).
+
+## How to Conduct Reviews
+
+- Pod meetings are a great opportunity to hold informal code reviews.
+- Reviews can also be scheduled outside of regular pod meetings.
+- Slack may be used to coordinate or conduct quick reviews.
+
+## Additional Notes
+
+- Pods working on code-intensive projects (such as package development or complex analyses) are encouraged—and may be required—to include code reviews as a regular part of their weekly workflow.

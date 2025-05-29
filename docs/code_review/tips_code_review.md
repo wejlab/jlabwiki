@@ -1,53 +1,98 @@
 # Tips and Resources for Developers
-1. The earlier you request a review, the less likely you will be asked to make large modifications.
-2. Be familiar with the style guide for the languages you use.
-    - [R tidyverse style guide](https://style.tidyverse.org/syntax.html):
-        - Package that provides automatic test for adherence to the R tidyverse 
-        style guide
-    - [styler](https://styler.r-lib.org/):
-        - Package that reformats files, directories, or packages to adhere to 
-        the R tidyverse style guide
-3. Write Clear Code
-    - Packages should contain small functions with well-defined descriptions 
-    (roxygen headers) and should not need in-line comments
-    - Analyses should be in R Markdown and contain informative descriptions for 
-    each code block. There should be minimal comments in the code and custom 
-    functions should be used and documented in a separate folder.
-    - Scripts should have comments throughout and should be in R Markdown files 
-    with associated functions whenever possible
-    - Use well-defined variable names
-        - Avoid: var1, temp, random, v, final, etc
-    - Functions should be <50 lines (this helps maintain good documentation 
-    without needing comments in the code)
-    - Lines should be <80 characters wide to maintain readability
-    - Use [roxygen](https://roxygen2.r-lib.org/articles/roxygen2.html) 
-    descriptions for functions 
-    
-4. Use GitHub
-    - All code should be hosted on GitHub
-        - For analyses/papers: analyses in R Markdown file, include a knit PDF,
-        functions in an R/ directory, a README.md, and a DESCRIPTION file
-        - Packages should follow 
-        [Hadley Wickham’s Package guide](https://r-pkgs.org/)
-    - Repository should have all details needed to replicate your 
-    results/figures
-    - Use the issue tracker for peers to report problems and for you to mark 
-    when they are resolved
-    - Push often (after testing and knowing that additions/changes work)
-    - Should alleviate the “I don’t want to break my code” concerns since your 
-    last working version should always be available on GitHub
-5. Create tests
-    Tests can be helpful tools to easily and automatically ensure that your code 
-    runs as expected. Tests may not be necessary for analyses or one-off code, 
-    but any code written and intended for others to use should:
-    - Pass developer checks
-        - R CMD
-        - BiocCheck
-    - Have checks/safeguards against incorrect use built into the code
-        - Ex: if statements with printout telling the user why their input is 
-        invalid
-        - Please think of the user when creating your warning message and try to
-        be as clear as possible to point them to a solution
-    - Be tested for edge cases
-        - Create automatic tests for edge cases as well as expected use cases 
-        using [testthat](https://r-pkgs.org/testing-basics.html)
+
+These best practices will help you write clear, reproducible, and well-documented code, making code reviews and collaborations smoother.
+
+---
+
+## 1. Request Reviews Early
+
+The earlier you ask for feedback, the less likely you'll need to make major revisions later.
+
+---
+
+## 2. Follow a Style Guide
+
+Adhering to language-specific style guides improves readability and consistency.
+
+**For R (tidyverse style):**
+- [R tidyverse style guide](https://style.tidyverse.org/syntax.html)
+- [styler package](https://styler.r-lib.org/): Automatically reformats code to match tidyverse standards.
+
+---
+
+## 3. Write Clear, Maintainable Code
+
+### General Guidelines
+
+- Use **descriptive variable names** (avoid `temp`, `final`, `var1`, etc.).
+- Keep **lines under 80 characters** wide for readability.
+- Functions should be **<50 lines long** to encourage modular, reusable code.
+
+### For Packages
+
+- Use small, focused functions with clear [`roxygen2`](https://roxygen2.r-lib.org/articles/roxygen2.html) headers.
+- Inline comments should not be needed—function docs should be self-explanatory.
+
+### For Analyses
+
+- Use **R Markdown** files:
+    - Include informative narrative text for each code block.
+    - Minimize inline comments by using well-documented functions.
+    - Store reusable functions in an `R/` directory and document with `roxygen2`.
+
+### For Scripts
+
+- Use **R Markdown** when possible.
+- Comment generously throughout standalone scripts.
+
+---
+
+## 4. Use GitHub Effectively
+
+All project code should be hosted on GitHub. Best practices include:
+
+### For Analyses, Projects, or Papers
+
+- Organize your repository with:
+    - An R Markdown file for the analysis
+    - A knit PDF version
+    - Custom functions in an `R/` folder
+    - A `README.md` with usage instructions
+    - A `DESCRIPTION` file
+
+### For Packages
+
+- Follow [Hadley Wickham’s package guide](https://r-pkgs.org/)
+- Follow Bioconductor standards
+
+### GitHub Tips
+
+- Ensure repositories contain everything needed to reproduce your results.
+- Use GitHub Issues for bug tracking, feature requests, and reviewer feedback.
+- Commit and push regularly (after verifying that your code works).
+- Keeping your working version on GitHub helps prevent accidental loss and supports collaborative development.
+
+---
+
+## 5. Write Tests
+
+Automated testing ensures that your code behaves as expected and is safe for others to use.
+
+### When to Use Tests
+
+- **Required** for code that will be reused or shared (e.g., packages).
+- **Optional but recommended** for one-off analyses or exploratory code.
+
+### Testing Best Practices
+
+- Run standard checks:
+    - `R CMD check`
+    - `BiocCheck` (for Bioconductor submissions)
+
+- Build in **input validation** with user-friendly error messages:
+    - Use `if` statements to catch invalid inputs early.
+    - Make error messages clear and actionable.
+
+- Test **edge cases and expected behavior**:
+    - Use [testthat](https://r-pkgs.org/testing-basics.html) for automated tests.
+

@@ -1,18 +1,49 @@
 # Overview
-Consistent code reviews ensure code quality, can aid in identifying potential 
-issues early, and improve overall code. Additionally, code reviews provide an 
-opportunity to learn from each other, improve coding skills, increase your 
-confidence in your code, and enhance your ability to discuss code in formal and 
-informal settings. Everyone in our lab should be involved in code reviews. This 
-document provides general documentation for performing informal lab code review 
-(code review at the coder’s request), lab meeting code review, and manuscript 
-submission code review. In addition, a resource section is provided to point 
-lab members to style guides, R packages that can help automate portions of code 
-review, and other helpful resources.
+## What are code reviews?
 
-For more details, please see:  
-- [General Code Review](code_review/general_code_review.md) 
-- [Informal Code Review](code_review/informal_code_review.md) 
-- [Lab Meeting Code Review](code_review/lab_meeting_code_review.md) 
-- [Manuscript Submission Code Review](code_review/manuscript_code_review.md) 
-- [Tips and Resources for Developers](code_review/tips_code_review.md') 
+Regular code reviews are essential for maintaining high-quality code. They help identify potential issues early, improve overall code structure, and promote best practices. Code reviews are also valuable learning opportunities—they allow you to:
+
+- Learn from others' approaches and feedback
+  
+- Improve your coding skills
+  
+- Build confidence in your code
+  
+- Practice communicating about code in both formal and informal contexts
+  
+
+**Everyone in the lab is encouraged to participate in code reviews!**
+
+## A guide to code reviews
+
+This guide outlines how to conduct different types of code reviews in our lab:
+
+- Informal code reviews – requested by the coder at any stage
+  
+- Lab meeting code reviews – collaborative reviews during lab meetings
+  
+- Manuscript submission reviews – final checks before submitting code with a manuscript
+  
+
+You'll also find a resources section with:
+
+- Recommended style guides
+  
+- Useful R packages for automating parts of the review process
+  
+- Additional materials to support effective code reviews
+  
+
+## Resources
+
+For more details, please see:
+
+- [General Code Review](general_code_review.md)
+  
+- [Informal Code Review](informal_code_review.md)
+  
+- [Lab Meeting Code Review](lab_meeting_code_review.md)
+  
+- [Manuscript Submission Code Review](manuscript_code_review.md)
+  
+- [Tips and Resources for Developers](tips_code_review.md)

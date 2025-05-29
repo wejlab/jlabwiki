@@ -9,7 +9,6 @@ nav:
     - Home: 'index.md'
     - Quick Links: 'quicklinks.md'
     - Lab Resources:
-        - 'annual_checkin.md'
         - Code Review:
             - 'code_review/code_review_overview.md'
             - 'code_review/general_code_review.md'
@@ -18,8 +17,10 @@ nav:
             - 'code_review/manuscript_code_review.md'
             - 'code_review/tips_code_review.md'
         - 'lab_meeting.md'
+        - 'protected_time.md'
         - 'slack.md'
         - 'lab_retreat_2025.md'
+        - 'annual_checkin.md'
         - 'grant_timelines.md'
         - 'grant_outline.md'
     - Learning Resources:

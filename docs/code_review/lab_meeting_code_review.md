@@ -1,13 +1,25 @@
 # Lab Meeting Code Review
-This abbreviated code review will not require outside preparation on the
-reviewers’ side. A single presenter will present their science (or helpful 
-topic) and their code in each lab meeting. Due to the shortened nature of the 
-review, the presenter/developer may ask for specific feedback (see suggested 
-reviewer feedback above) for the reviewers to focus their comments on. The code 
-presented in the meeting often aligns with the previously discussed science; 
-however, this need not always be the case. Like all lab meeting topics, 
-presenters should choose to present code in which feedback will most benefit 
-the presenter.
+
+## An Abbreviated Code Reviews
+
+Abbreviated code reviews conducted during lab meetings are designed to be lightweight and require no advance preparation from reviewers.
+
+### Format
+
+- One presenter per lab meeting will share either:
+  - Their scientific work, or
+  - A helpful topic, along with relevant code.
+- The presenter leads the session, walking through their code and explaining its context.
+
+### Purpose
+
+- These sessions are meant to provide focused, constructive feedback.
+- Given the limited time, presenters are encouraged to **request specific feedback areas** (see [Suggested Reviewer Feedback](#) for examples).
+
+### Guidelines for Presenters
+
+- Code shared often relates to previously discussed scientific topics, but is not a requirement.
+- Choose code where feedback will be most beneficial to your work.
 
 ## Structure
 - 10-10:30: Intros/Ice Breaker
