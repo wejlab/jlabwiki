@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Johnson Lab Members">
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Manuscript Submission Code Review - The Johnson Lab Wiki</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <link href="../../stylesheets/extra.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Manuscript Submission Code Review", url: "#_top", children: [
+              {title: "When to Initiate a Review", url: "#when-to-initiate-a-review" },
+              {title: "Manuscript GitHub Repository", url: "#manuscript-github-repository" },
+              {title: "Reviewer Responsibilities", url: "#reviewer-responsibilities" },
+              {title: "Giving Feedback", url: "#giving-feedback" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../tips_code_review/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../tips_code_review/" class="btn btn-xs btn-link">
+        Tips and Resources for Developers
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../lab_meeting_code_review/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../lab_meeting_code_review/" class="btn btn-xs btn-link">
+        Lab Meeting Code Review
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="manuscript-submission-code-review">Manuscript Submission Code Review</h1>
+<p>Manuscript submission code reviews are the most in-depth reviews conducted in the lab. Their primary goals are to ensure that <strong>all code related to a manuscript</strong> is:</p>
+<ul>
+<li>Publicly accessible  </li>
+<li>Reproducible  </li>
+<li>Well-documented  </li>
+<li>Well-organized</li>
+</ul>
+<p>This includes code for <strong>data access, preprocessing, analysis, and table/figure generation</strong>.</p>
+<h2 id="when-to-initiate-a-review">When to Initiate a Review</h2>
+<p>A manuscript code review should take place <strong>before submitting the final draft</strong> to a journal or preprint server. At least <strong>two pod members</strong> must complete the review, which should be discussed in a scheduled pod meeting.</p>
+<ul>
+<li><strong>Give reviewers at least 1 week</strong> to complete their review.</li>
+<li>Provide each reviewer with:</li>
+<li>A link to the GitHub repository</li>
+<li>A draft of the manuscript</li>
+</ul>
+<hr />
+<h2 id="manuscript-github-repository">Manuscript GitHub Repository</h2>
+<p>All analysis-related materials must be included in a single GitHub repository. Data may be hosted externally, but the repository must contain clear instructions or code to <strong>retrieve that data</strong>.</p>
+<blockquote>
+<p>Tip: Well-documented, modular code written throughout the project will reduce the workload during manuscript prep.</p>
+</blockquote>
+<h3 id="recommended-repository-structure">Recommended Repository Structure</h3>
+<ul>
+<li><strong>R Markdown file</strong><ul>
+<li>Follows the manuscript's logic and structure:<ul>
+<li>Raw data retrieval</li>
+<li>Data cleaning and preprocessing</li>
+<li>Data analysis</li>
+<li>Figure/table creation</li>
+<li><code>sessionInfo()</code> block</li>
+<li>Clear narrative text throughout</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>PDF of the R Markdown</strong><ul>
+<li>A static, reproducible version of the work</li>
+</ul>
+</li>
+<li><strong><code>R/</code> folder</strong><ul>
+<li>Custom functions split into separate <code>.R</code> files</li>
+<li>All functions documented using <code>roxygen2</code></li>
+<li>Include usage examples for key user-facing functions</li>
+</ul>
+</li>
+<li><strong><code>README.md</code></strong><ul>
+<li>Overview of repository structure</li>
+<li>Instructions for running the analysis (i.e., point to the specific <code>.md</code> file)</li>
+<li>Direct user to key functions</li>
+</ul>
+</li>
+<li><strong><code>DESCRIPTION</code> file</strong><ul>
+<li>Follows <a href="https://r-pkgs.org/description.html">R package standards</a></li>
+<li>Must include: name, title, authors, R version, and required packages</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="reviewer-responsibilities">Reviewer Responsibilities</h2>
+<p>Reviewers should <strong>clone the repository</strong> and assess the following:</p>
+<ol>
+<li>
+<h3 id="reproducibility">Reproducibility</h3>
+<ul>
+<li>Can the R Markdown be run start-to-finish on your machine?</li>
+<li>Output should match the included PDF.</li>
+<li>All required data should be accessible (no local paths or hardcoded directories).</li>
+<li>If errors occur, confirm whether they stem from environment/version differences.</li>
+<li>Resolve these issues <strong>before</strong> moving to steps 2 and 3.</li>
+</ul>
+</li>
+<li>
+<h3 id="code-quality">Code Quality</h3>
+<ul>
+<li>R Markdown is clear and matches the manuscript's structure.</li>
+<li>Code is well-commented.</li>
+<li>Functions in the <code>R/</code> folder have clear <code>roxygen2</code> documentation.</li>
+</ul>
+</li>
+<li>
+<h3 id="general-feedback">General Feedback</h3>
+<ul>
+<li>Provide suggestions for improvement.</li>
+<li>Reference the <a href="#">General Guidelines for Reviewers</a> for additional points.</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="giving-feedback">Giving Feedback</h2>
+<ul>
+<li>Use <strong>GitHub Issues</strong> for detailed comments.</li>
+<li>A brief <strong>written summary</strong> is also encouraged—include both praise and suggestions.</li>
+<li>Reviewers should be able to:<ul>
+<li>Reproduce the analysis independently</li>
+<li>Understand how to use any shared functions</li>
+</ul>
+</li>
+</ul>
+<p>If clarification is needed, the author must update the code (e.g., improve README, add inline documentation, or expand function descriptions).</p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../tips_code_review/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../tips_code_review/" class="btn btn-xs btn-link">
+        Tips and Resources for Developers
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../lab_meeting_code_review/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../lab_meeting_code_review/" class="btn btn-xs btn-link">
+        Lab Meeting Code Review
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+      <p>
+        <a href="https://github.com/wejlab/edit/master/docs/code_review/manuscript_code_review.md"><i class="fa fa-github"></i>
+Edit on GitHub</a>
+      </p>
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

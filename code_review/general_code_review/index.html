@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Johnson Lab Members">
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>General Code Review Guidelines - The Johnson Lab Wiki</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <link href="../../stylesheets/extra.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "General Code Review Guidelines", url: "#_top", children: [
+              {title: "For Developers", url: "#for-developers" },
+              {title: "For Reviewers", url: "#for-reviewers" },
+              {title: "Feedback Formats", url: "#feedback-formats" },
+              {title: "Setting Specific Expectations", url: "#setting-specific-expectations" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../informal_code_review/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../informal_code_review/" class="btn btn-xs btn-link">
+        Informal Code Reviews
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../code_review_overview/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../code_review_overview/" class="btn btn-xs btn-link">
+        Overview
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="general-code-review-guidelines">General Code Review Guidelines</h1>
+<h2 id="for-developers">For Developers</h2>
+<p>To support an effective code review, developers should provide reviewers with:</p>
+<ul>
+<li>A <strong>brief written description</strong> of the code's <strong>goal or objective</strong></li>
+<li>A <strong>clear explanation of all inputs</strong></li>
+<li>A <strong>sample input or dataset</strong></li>
+<li>A <strong>code chunk of 150–200 lines</strong> (maximum per review session)</li>
+</ul>
+<h2 id="for-reviewers">For Reviewers</h2>
+<p>Reviewers should:</p>
+<ul>
+<li>Plan to spend <strong>~1 hour per 200 lines of code</strong></li>
+<li>Evaluate the code by considering:<ul>
+<li>Does the code run successfully and produce the intended output?</li>
+<li>Is the code <strong>well commented</strong> and easy to follow?</li>
+<li>Could <strong>repeated code</strong> be refactored into functions?</li>
+<li>Are there <strong>more efficient methods or functions</strong> that could be used?</li>
+<li>Is the <strong>code readable and well-organized</strong>?</li>
+<li>Are <strong>edge cases or input checks</strong> addressed (especially for shared code)?</li>
+<li>What did you learn that you might apply in your own work?</li>
+</ul>
+</li>
+<li>Provide a <strong>written summary</strong> that includes:<ul>
+<li><strong>Constructive suggestions</strong></li>
+<li><strong>Positive feedback</strong></li>
+</ul>
+</li>
+<li>Aim to provide feedback <strong>promptly</strong>, so the developer isn't blocked from progressing</li>
+</ul>
+<h2 id="feedback-formats">Feedback Formats</h2>
+<h3 id="offline-exchange">Offline Exchange</h3>
+<ul>
+<li>Developer sends:<ul>
+<li>Code file</li>
+<li>Data file or data access instructions</li>
+</ul>
+</li>
+<li>Reviewer responds with:<ul>
+<li>A <strong>written review</strong>, similar to a manuscript critique</li>
+</ul>
+</li>
+<li>Both parties <strong>agree on a turnaround time</strong></li>
+</ul>
+<h3 id="real-time-meeting-preferred">Real-time Meeting (Preferred)</h3>
+<ul>
+<li>Reviewer provides:<ul>
+<li><strong>Real-time comments</strong></li>
+<li><strong>Written notes</strong> summarizing needed changes</li>
+</ul>
+</li>
+<li>Ideal workflow:<ul>
+<li>Developer and reviewer <strong>schedule a meeting</strong> (e.g., Wednesday at 3 PM)</li>
+<li>Code is shared <strong>two business days before</strong> (e.g., by EOD Monday)</li>
+<li>Meeting held for discussion</li>
+<li>Any unresolved items are <strong>followed up in writing</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="setting-specific-expectations">Setting Specific Expectations</h2>
+<p>These general guidelines should be adapted depending on the review context. Lab members are expected to participate regularly in the following review types:</p>
+<ul>
+<li><a href="../informal_code_review/">Informal Code Review</a></li>
+<li><a href="../lab_meeting_code_review/">Lab Meeting Code Review</a></li>
+<li><a href="../manuscript_code_review/">Manuscript Submission Code Review</a></li>
+</ul>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../informal_code_review/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../informal_code_review/" class="btn btn-xs btn-link">
+        Informal Code Reviews
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../code_review_overview/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../code_review_overview/" class="btn btn-xs btn-link">
+        Overview
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+      <p>
+        <a href="https://github.com/wejlab/edit/master/docs/code_review/general_code_review.md"><i class="fa fa-github"></i>
+Edit on GitHub</a>
+      </p>
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
