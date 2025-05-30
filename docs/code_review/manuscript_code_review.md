@@ -1,30 +1,38 @@
 # Manuscript Submission Code Review
 
-Manuscript submission code reviews are the most in-depth reviews conducted in the lab. Their primary goals are to ensure that **all code related to a manuscript** is:
+Manuscript submission code reviews are the most in-depth reviews conducted in 
+the lab. Their primary goals are to ensure that **all code related to a 
+manuscript** is:
 
 - Publicly accessible  
 - Reproducible  
 - Well-documented  
 - Well-organized
 
-This includes code for **data access, preprocessing, analysis, and table/figure generation**.
+This includes code for **data access, preprocessing, analysis, and table/figure 
+generation**.
 
 ## When to Initiate a Review
 
-A manuscript code review should take place **before submitting the final draft** to a journal or preprint server. At least **two pod members** must complete the review, which should be discussed in a scheduled pod meeting.
+A manuscript code review should take place **before submitting the final draft** 
+to a journal or preprint server. At least **two pod members** must complete the 
+review, which could be discussed in a scheduled pod meeting.
 
-- **Give reviewers at least 1 week** to complete their review.
+- **Give reviewers at least 1 week** to complete their review
 - Provide each reviewer with:
-  - A link to the GitHub repository
-  - A draft of the manuscript
+    - A link to the GitHub repository
+    - A draft of the manuscript
 
 ---
 
 ## Manuscript GitHub Repository
 
-All analysis-related materials must be included in a single GitHub repository. Data may be hosted externally, but the repository must contain clear instructions or code to **retrieve that data**.
+All analysis-related materials must be included in a single GitHub repository. 
+Data may be hosted externally, but the repository must contain clear 
+instructions or code to **retrieve that data**.
 
-> Tip: Well-documented, modular code written throughout the project will reduce the workload during manuscript prep.
+> Tip: Well-documented, modular code written throughout the project will reduce 
+the workload during manuscript prep.
 
 ### Recommended Repository Structure
 
@@ -76,10 +84,11 @@ Reviewers should **clone the repository** and assess the following:
 
 ## Giving Feedback
 
-- Use **GitHub Issues** for detailed comments.
-- A brief **written summary** is also encouraged—include both praise and suggestions.
+- Use **GitHub Issues** for detailed comments
+- A brief **written summary** is also encouraged—include both praise and suggestions
 - Reviewers should be able to:
     - Reproduce the analysis independently
-    - Understand how to use any shared functions
+    - Understand how to use any included functions
 
-If clarification is needed, the author must update the code (e.g., improve README, add inline documentation, or expand function descriptions).
+If clarification is needed, the author must update the code (e.g., improve 
+README, improve object names, or expand function descriptions).
