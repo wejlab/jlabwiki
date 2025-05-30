@@ -44,3 +44,11 @@ not a requirement
 - 11:20-11:30: Code Feedback
     - Send specific “to-dos” or changes to the developer via Slack OR as issues on GitHub
     - Provide positive praise (may be done via chat)
+    
+## Example Code Review
+Below is an example of what a lab meetign code review may look like. This is not
+a perfect example, but will hopefully provide a feel for how you may structure
+a lab meetign review.
+
+For access to the [video](https://rutgersconnect-my.sharepoint.com/:v:/r/personal/jkm186_njms_rutgers_edu/Documents/Code_Review/LabMeetingCodeReviewExample.mp4), 
+please slack Jessica.
