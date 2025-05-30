@@ -87,30 +87,34 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     <h1 id="tips-and-resources-for-developers">Tips and Resources for Developers</h1>
-<p>These best practices will help you write clear, reproducible, and well-documented code, making code reviews and collaborations smoother.</p>
+<p>These best practices will help you write clear, reproducible, and 
+well-documented code, making code reviews and collaborations smoother.</p>
 <hr />
-<h2 id="1-request-reviews-early">1. Request Reviews Early</h2>
+<h3 id="1-request-reviews-early">1. Request Reviews Early</h3>
 <p>The earlier you ask for feedback, the less likely you'll need to make major revisions later.</p>
 <hr />
-<h2 id="2-follow-a-style-guide">2. Follow a Style Guide</h2>
+<h3 id="2-follow-a-style-guide">2. Follow a Style Guide</h3>
 <p>Adhering to language-specific style guides improves readability and consistency.</p>
-<p><strong>For R (tidyverse style):</strong>
-- <a href="https://style.tidyverse.org/syntax.html">R tidyverse style guide</a>
-- <a href="https://styler.r-lib.org/">styler package</a>: Automatically reformats code to match tidyverse standards.</p>
+<h5 id="for-r-tidyverse-style"><strong>For R (tidyverse style):</strong></h5>
+<ul>
+<li><a href="https://style.tidyverse.org/syntax.html">R tidyverse style guide</a></li>
+<li><a href="https://styler.r-lib.org/">styler package</a>: Automatically reformats code to 
+match tidyverse standards.</li>
+</ul>
 <hr />
-<h2 id="3-write-clear-maintainable-code">3. Write Clear, Maintainable Code</h2>
-<h3 id="general-guidelines">General Guidelines</h3>
+<h3 id="3-write-clear-maintainable-code">3. Write Clear, Maintainable Code</h3>
+<h4 id="general-guidelines">General Guidelines</h4>
 <ul>
 <li>Use <strong>descriptive variable names</strong> (avoid <code>temp</code>, <code>final</code>, <code>var1</code>, etc.).</li>
-<li>Keep <strong>lines under 80 characters</strong> wide for readability.</li>
+<li>Keep <strong>lines under 80 characters wide</strong> for readability.</li>
 <li>Functions should be <strong>&lt;50 lines long</strong> to encourage modular, reusable code.</li>
 </ul>
-<h3 id="for-packages">For Packages</h3>
+<h4 id="for-packages">For Packages</h4>
 <ul>
 <li>Use small, focused functions with clear <a href="https://roxygen2.r-lib.org/articles/roxygen2.html"><code>roxygen2</code></a> headers.</li>
 <li>Inline comments should not be needed—function docs should be self-explanatory.</li>
 </ul>
-<h3 id="for-analyses">For Analyses</h3>
+<h4 id="for-analyses">For Analyses</h4>
 <ul>
 <li>Use <strong>R Markdown</strong> files:<ul>
 <li>Include informative narrative text for each code block.</li>
@@ -119,15 +123,15 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </ul>
 </li>
 </ul>
-<h3 id="for-scripts">For Scripts</h3>
+<h4 id="for-scripts">For Scripts</h4>
 <ul>
 <li>Use <strong>R Markdown</strong> when possible.</li>
 <li>Comment generously throughout standalone scripts.</li>
 </ul>
 <hr />
-<h2 id="4-use-github-effectively">4. Use GitHub Effectively</h2>
+<h3 id="4-use-github-effectively">4. Use GitHub Effectively</h3>
 <p>All project code should be hosted on GitHub. Best practices include:</p>
-<h3 id="for-analyses-projects-or-papers">For Analyses, Projects, or Papers</h3>
+<h4 id="for-analyses-projects-or-papers">For Analyses, Projects, or Papers</h4>
 <ul>
 <li>Organize your repository with:<ul>
 <li>An R Markdown file for the analysis</li>
@@ -138,27 +142,29 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </ul>
 </li>
 </ul>
-<h3 id="for-packages_1">For Packages</h3>
+<h4 id="for-packages_1">For Packages</h4>
 <ul>
 <li>Follow <a href="https://r-pkgs.org/">Hadley Wickham’s package guide</a></li>
 <li>Follow Bioconductor standards</li>
 </ul>
-<h3 id="github-tips">GitHub Tips</h3>
+<h4 id="github-tips">GitHub Tips</h4>
 <ul>
-<li>Ensure repositories contain everything needed to reproduce your results.</li>
-<li>Use GitHub Issues for bug tracking, feature requests, and reviewer feedback.</li>
-<li>Commit and push regularly (after verifying that your code works).</li>
-<li>Keeping your working version on GitHub helps prevent accidental loss and supports collaborative development.</li>
+<li>Ensure repositories contain everything needed to reproduce your results</li>
+<li>Use GitHub Issues for bug tracking, feature requests, and reviewer feedback</li>
+<li>Commit and push regularly (after verifying that your code works)</li>
+<li>Keeping your working version on GitHub helps prevent accidental loss and 
+supports collaborative development</li>
 </ul>
 <hr />
-<h2 id="5-write-tests">5. Write Tests</h2>
-<p>Automated testing ensures that your code behaves as expected and is safe for others to use.</p>
-<h3 id="when-to-use-tests">When to Use Tests</h3>
+<h3 id="5-write-tests">5. Write Tests</h3>
+<p>Automated testing ensures that your code behaves as expected and is suitable for 
+others to use.</p>
+<h4 id="when-to-use-tests">When to Use Tests</h4>
 <ul>
 <li><strong>Required</strong> for code that will be reused or shared (e.g., packages).</li>
 <li><strong>Optional but recommended</strong> for one-off analyses or exploratory code.</li>
 </ul>
-<h3 id="testing-best-practices">Testing Best Practices</h3>
+<h4 id="testing-best-practices">Testing Best Practices</h4>
 <ul>
 <li>
 <p>Run standard checks:</p>

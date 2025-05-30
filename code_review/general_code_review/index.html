@@ -89,7 +89,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <h2 id="for-developers">For Developers</h2>
 <p>To support an effective code review, developers should provide reviewers with:</p>
 <ul>
-<li>A <strong>brief written description</strong> of the code's <strong>goal or objective</strong></li>
+<li>A <strong>brief description</strong> of the code's <strong>goal or objective</strong></li>
 <li>A <strong>clear explanation of all inputs</strong></li>
 <li>A <strong>sample input or dataset</strong></li>
 <li>A <strong>code chunk of 150–200 lines</strong> (maximum per review session)</li>
@@ -120,7 +120,8 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <ul>
 <li>Developer sends:<ul>
 <li>Code file</li>
-<li>Data file or data access instructions</li>
+<li>Data file, data access instruction, or a small example</li>
+<li>Brief description of code, including details for any inputs</li>
 </ul>
 </li>
 <li>Reviewer responds with:<ul>
@@ -131,6 +132,12 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </ul>
 <h3 id="real-time-meeting-preferred">Real-time Meeting (Preferred)</h3>
 <ul>
+<li>Developer provides:<ul>
+<li>Code file</li>
+<li>Data file, data access instruction, or a small example</li>
+<li>Brief description of code, including details for any inputs</li>
+</ul>
+</li>
 <li>Reviewer provides:<ul>
 <li><strong>Real-time comments</strong></li>
 <li><strong>Written notes</strong> summarizing needed changes</li>
@@ -139,13 +146,15 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Ideal workflow:<ul>
 <li>Developer and reviewer <strong>schedule a meeting</strong> (e.g., Wednesday at 3 PM)</li>
 <li>Code is shared <strong>two business days before</strong> (e.g., by EOD Monday)</li>
+<li>Reviewer reviews code <strong>day before meeting</strong> (e.g., EOD Tuesday)</li>
 <li>Meeting held for discussion</li>
-<li>Any unresolved items are <strong>followed up in writing</strong></li>
+<li>Any unresolved items are <strong>provided as written notes</strong></li>
 </ul>
 </li>
 </ul>
 <h2 id="setting-specific-expectations">Setting Specific Expectations</h2>
-<p>These general guidelines should be adapted depending on the review context. Lab members are expected to participate regularly in the following review types:</p>
+<p>These general guidelines should be adapted depending on the review context. Lab 
+members are expected to participate regularly in the following review types:</p>
 <ul>
 <li><a href="../informal_code_review/">Informal Code Review</a></li>
 <li><a href="../lab_meeting_code_review/">Lab Meeting Code Review</a></li>
