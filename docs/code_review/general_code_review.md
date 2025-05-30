@@ -4,7 +4,7 @@
 
 To support an effective code review, developers should provide reviewers with:
 
-- A **brief written description** of the code's **goal or objective**
+- A **brief description** of the code's **goal or objective**
 - A **clear explanation of all inputs**
 - A **sample input or dataset**
 - A **code chunk of 150–200 lines** (maximum per review session)
@@ -33,25 +33,32 @@ Reviewers should:
 
 - Developer sends:
     - Code file
-    - Data file or data access instructions
+    - Data file, data access instruction, or a small example
+    - Brief description of code, including details for any inputs
 - Reviewer responds with:
     - A **written review**, similar to a manuscript critique
 - Both parties **agree on a turnaround time**
 
 ### Real-time Meeting (Preferred)
 
+- Developer provides:
+    - Code file
+    - Data file, data access instruction, or a small example
+    - Brief description of code, including details for any inputs
 - Reviewer provides:
     - **Real-time comments**
     - **Written notes** summarizing needed changes
 - Ideal workflow:
     - Developer and reviewer **schedule a meeting** (e.g., Wednesday at 3 PM)
     - Code is shared **two business days before** (e.g., by EOD Monday)
+    - Reviewer reviews code **day before meeting** (e.g., EOD Tuesday)
     - Meeting held for discussion
-    - Any unresolved items are **followed up in writing**
+    - Any unresolved items are **provided as written notes**
 
 ## Setting Specific Expectations
 
-These general guidelines should be adapted depending on the review context. Lab members are expected to participate regularly in the following review types:
+These general guidelines should be adapted depending on the review context. Lab 
+members are expected to participate regularly in the following review types:
 
 - [Informal Code Review](informal_code_review.md)
 - [Lab Meeting Code Review](lab_meeting_code_review.md)
