@@ -1,8 +1,7 @@
 # Manuscript Submission Checklist
-When working on a manuscript to submit to a journal, these are the ideal tasks 
-that should be completed prior to submission. Some circumstances might 
-necessitate adaptation, in which case, please talk to Evan about adapting any 
-of the below items.
+When working on a manuscript to submit to a journal, these tasks 
+should be completed prior to submission. Chat with Evan if your circumstances 
+necessitate adaptation.
 
 ## Manuscript
 - [ ] Written and styled according to Journal Guidelines

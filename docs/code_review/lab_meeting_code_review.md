@@ -46,9 +46,5 @@ not a requirement
     - Provide positive praise (may be done via chat)
     
 ## Example Code Review
-Below is an example of what a lab meetign code review may look like. This is not
-a perfect example, but will hopefully provide a feel for how you may structure
-a lab meetign review.
-
-For access to the [video](https://rutgersconnect-my.sharepoint.com/:v:/r/personal/jkm186_njms_rutgers_edu/Documents/Code_Review/LabMeetingCodeReviewExample.mp4), 
-please slack Jessica.
+This [video](https://rutgersconnect-my.sharepoint.com/:v:/r/personal/jkm186_njms_rutgers_edu/Documents/Code_Review/LabMeetingCodeReviewExample.mp4) 
+is an example of what a lab meeting code review might look like. For access, please message Jessica on Slack.
