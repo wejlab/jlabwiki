@@ -7,7 +7,6 @@ repo_name: 'GitHub'
 
 nav:
     - Home: 'index.md'
-    - Quick Links: 'quicklinks.md'
     - Lab Resources:
         - Code Review:
             - 'code_review/code_review_overview.md'
@@ -25,7 +24,8 @@ nav:
         - 'grant_outline.md'
         - 'manuscript_checklist.md'
     - Learning Resources:
-        - 'learning_resources/landing.md'
+        - 'learning_resources/quicklinks.md'
+        - 'learning_resources/git_expert.md'
     - Personal Pages:
         - 'personalpages.md'
         - Aubrey Odom: 'personal_pages/aubrey_odom.md'
