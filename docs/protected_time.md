@@ -2,7 +2,7 @@
 
 *New as of Summer 2025!*
 
-Evan has carved out PROTECTED time on Tuesdays and Thursdays to meet with students and Pod groups. Your weekly meeting with him will be **either** a Pods meeting (90 minutes) or a one-on-one (30 minutes).
+Evan has carved out PROTECTED time on Tuesdays and Thursdays to meet with students and Pod groups. Your weekly meeting with him will be **either** a Pods meeting (60 minutes) or a one-on-one (30 minutes).
 
 All meetings will be canceled during travel weeks, and the rotation will resume the following week.
 
