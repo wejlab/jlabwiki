@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Johnson Lab Members">
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Resources for Developing MetaScope - The Johnson Lab Wiki</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <link href="../../stylesheets/extra.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Resources for Developing MetaScope", url: "#_top", children: [
+              {title: "\ud83d\udcc4 PathoScope Literature", url: "#pathoscope-literature" },
+              {title: "\ud83d\udcd8 PathoScope 2.0 Tutorial", url: "#pathoscope-20-tutorial" },
+              {title: "\ud83e\udec1 Case Study: Asthma and the Microbiome", url: "#case-study-asthma-and-the-microbiome" },
+              {title: "\ud83d\udd27 Rsubread", url: "#rsubread" },
+              {title: "\ud83e\uddec Biostrings and DNAStringSet", url: "#biostrings-and-dnastringset" },
+              {title: "\ud83d\uddc3 Working with SAM/BAM Files", url: "#working-with-sambam-files" },
+              {title: "\ud83e\udded Reference Genomes", url: "#reference-genomes" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../wiki_ideas/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../wiki_ideas/" class="btn btn-xs btn-link">
+        Wiki Ideas
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../r_packages/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../r_packages/" class="btn btn-xs btn-link">
+        Create your own R Package!
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="resources-for-developing-metascope">Resources for Developing MetaScope</h1>
+<p>A curated list of literature, tutorials, and technical documentation to support the development and improvement of the MetaScope metagenomic profiling pipeline.</p>
+<hr />
+<h2 id="pathoscope-literature">📄 PathoScope Literature</h2>
+<ul>
+<li>
+<p><a href="https://genome.cshlp.org/content/23/10/1721.full.pdf+html"><strong>Comprehensive identification of pathogens in clinical samples by unbiased metagenomic sequencing</strong></a></p>
+<p>This foundational paper introduces the original PathoScope framework for accurate pathogen identification using metagenomic sequencing data.</p>
+</li>
+<li>
+<p><a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-15-262"><strong>PathoScope: Metagenomic strain identification using a likelihood-based scoring method</strong></a></p>
+<p>Describes the underlying statistical model that enables strain-level classification from sequencing reads.</p>
+</li>
+<li>
+<p><a href="https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-33"><strong>PathoScope 2.0: A framework for strain identification in environmental or clinical samples</strong></a></p>
+<p>Details improvements in accuracy and speed in PathoScope 2.0, supporting complex microbial profiling tasks.</p>
+</li>
+</ul>
+<hr />
+<h2 id="pathoscope-20-tutorial">📘 PathoScope 2.0 Tutorial</h2>
+<ul>
+<li>
+<p><a href="https://static-content.springer.com/esm/art:10.1186/2049-2618-2-33/MediaObjects/40168_2014_59_MOESM5_ESM.pdf"><strong>PathoScope 2.0 Extended Tutorial PDF</strong></a></p>
+<p>A step-by-step guide explaining installation, configuration, and use of PathoScope 2.0 on real data.</p>
+</li>
+</ul>
+<hr />
+<h2 id="case-study-asthma-and-the-microbiome">🫁 Case Study: Asthma and the Microbiome</h2>
+<ul>
+<li>
+<p><a href="https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-015-0121-1"><strong>The airway microbiome in asthma: a case-control study</strong></a></p>
+<p>Demonstrates an application of metagenomic profiling (including PathoScope) in the analysis of airway microbiota and its link to asthma.</p>
+</li>
+</ul>
+<hr />
+<h2 id="rsubread">🔧 Rsubread</h2>
+<ul>
+<li>
+<p><a href="https://bioconductor.org/packages/release/bioc/vignettes/Rsubread/inst/doc/SubreadUsersGuide.pdf"><strong>Rsubread User Guide (PDF)</strong></a></p>
+<p>The official vignette for using Rsubread, a fast alignment and feature counting package commonly used with metagenomic pipelines.</p>
+</li>
+<li>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3664803/"><strong>Rsubread in Practice: Publication Summary</strong></a></p>
+<p>A peer-reviewed article showcasing the performance and use cases of Rsubread.</p>
+</li>
+</ul>
+<hr />
+<h2 id="biostrings-and-dnastringset">🧬 Biostrings and DNAStringSet</h2>
+<ul>
+<li>
+<p><a href="https://kasperdanielhansen.github.io/genbioconductor/html/Biostrings.html"><strong>Intro to Biostrings Objects (Kasper Hansen)</strong></a></p>
+<p>An accessible guide to using <code>DNAStringSet</code> and related objects for string manipulation in genomics.</p>
+</li>
+<li>
+<p><a href="https://web.stanford.edu/class/bios221/labs/biostrings/lab_1_biostrings.html"><strong>Biostrings Lab Tutorial (Stanford)</strong></a></p>
+<p>A practical lab for learning the basics of Biostrings operations in R.</p>
+</li>
+</ul>
+<hr />
+<h2 id="working-with-sambam-files">🗃 Working with SAM/BAM Files</h2>
+<ul>
+<li>
+<p><a href="http://bioconductor.org/packages/release/bioc/vignettes/Rsamtools/inst/doc/Rsamtools-Overview.pdf"><strong>Rsamtools Overview</strong></a></p>
+<p>Documentation for the <code>Rsamtools</code> package, which enables manipulation and querying of <code>.sam</code> and <code>.bam</code> files from R.</p>
+</li>
+<li>
+<p><a href="https://samtools.github.io/hts-specs/SAMv1.pdf"><strong>SAM/BAM File Format Specification (HTS-specs)</strong></a></p>
+<p>Technical reference for the SAM/BAM format, with a detailed explanation of file structure and headers (see page 10).</p>
+</li>
+</ul>
+<hr />
+<h2 id="reference-genomes">🧭 Reference Genomes</h2>
+<ul>
+<li>
+<p><a href="https://www.sciencedirect.com/topics/neuroscience/reference-genome"><strong>Overview of Reference Genomes (ScienceDirect)</strong></a></p>
+<p>A high-level overview of what reference genomes are and their importance in sequence alignment and classification.</p>
+</li>
+<li>
+<p><a href="https://github.com/PathoScope/PathoScope/wiki/PathoMap"><strong>PathoMap (PathoScope GitHub Wiki)</strong></a></p>
+<p>Official documentation for PathoMap, a key reference database component of the PathoScope framework.</p>
+</li>
+</ul>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../wiki_ideas/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../wiki_ideas/" class="btn btn-xs btn-link">
+        Wiki Ideas
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../r_packages/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../r_packages/" class="btn btn-xs btn-link">
+        Create your own R Package!
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+      <p>
+        <a href="https://github.com/wejlab/edit/master/docs/learning_resources/metascope.md"><i class="fa fa-github"></i>
+Edit on GitHub</a>
+      </p>
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
