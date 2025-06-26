@@ -26,9 +26,8 @@ nav:
     - Learning Resources:
         - 'learning_resources/quicklinks.md'
         - 'learning_resources/git_expert.md'
-    - Personal Pages:
-        - 'personalpages.md'
-        - Aubrey Odom: 'personal_pages/aubrey_odom.md'
+        - 'learning_resources/r_packages.md'
+        - 'learning_resources/metascope.md'
     - Wiki Ideas: 'wiki_ideas.md'
 
 extra_css:
