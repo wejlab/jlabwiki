@@ -27,6 +27,7 @@ nav:
         - 'learning_resources/quicklinks.md'
         - 'learning_resources/git_expert.md'
         - 'learning_resources/r_packages.md'
+        - 'learning_resources/sharing_r_packages.md'
         - 'learning_resources/metascope.md'
     - Wiki Ideas: 'wiki_ideas.md'
 
