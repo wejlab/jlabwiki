@@ -15,6 +15,7 @@ nav:
             - 'code_review/lab_meeting_code_review.md'
             - 'code_review/manuscript_code_review.md'
             - 'code_review/tips_code_review.md'
+        - 'lab_expectations.md'
         - 'lab_meeting.md'
         - 'protected_time.md'
         - 'slack.md'
