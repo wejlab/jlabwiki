@@ -6,12 +6,12 @@ Abbreviated code reviews conducted during lab meetings are designed to be
 lightweight and require no advance preparation from reviewers.
 
 ### Format
-One presenter per lab meeting will share:
-- Their scientific work or a helpful topic (15 min)
-- Relevant code to the above, or other code the presenter has been working on
+Each presenter in lab meeting will share:
+- Their scientific work or a helpful topic (10-15 min)
+- Relevant code to the above, or other code the presenter has been working on (10-15 min)
 
 The presenter leads the session, walking through their topic and their code
-(includign explaining the code's context).
+(including explaining the code's context).
 
 ### Purpose
 
@@ -28,23 +28,24 @@ not a requirement
 
 ## Structure
 - 10-10:30: Intros/Ice Breaker
-- 10:30-10:45: Present Science (or other topic helpful to presenter)
-- 10:45-10:55: Q&A (based on science/chosen topic)
-- 10:55-11:00: Presenter Introduces Code
-    - Expected Output/Goal
-    - Describe the Inputs
-    - Provide code
-    - Optional: Provide Example Input
-- 11:00-11:10: Independent Review of Presenter’s Code
-    - Will likely have time to evaluate code in 1 or 2 of the ways suggested 
-    earlier
-- 11:10-11:20: Presenter Walks through Code
-    - Describe the logic behind each line or chunk of lines
-    - Describe algorithms, function calls, etc
-- 11:20-11:30: Code Feedback
-    - Send specific “to-dos” or changes to the developer via Slack OR as issues on GitHub
-    - Provide positive praise (may be done via chat)
+- 10:30 - 11:00: 1st Presenter
+    - 10:30-10:40: Present Science (or other topic helpful to presenter)
+    - 10:40-10:45: Presenter Introduces Code
+        - Expected Output/Goal
+        - Describe the Inputs
+        - Provide code
+        - Optional: Provide Example Input
+    - 10:45-10:55: Independent Review of Presenter’s Code
+        - Will likely have time to evaluate code in 1 or 2 of the ways suggested 
+        earlier
+    - 10:55-11:00: Feedback, Questions, Discussion on Science and Code
+        - Send specific “to-dos” or changes to the developer via Slack OR as issues on GitHub
+        - Provide positive praise (may be done via chat)
+- 11:00 - 11:30: 2nd Presenter
     
 ## Example Code Review
 This [video](https://rutgersconnect-my.sharepoint.com/:v:/r/personal/jkm186_njms_rutgers_edu/Documents/Code_Review/LabMeetingCodeReviewExample.mp4) 
-is an example of what a lab meeting code review might look like. For access, please message Jessica on Slack.
+is an example of what a lab meeting code review might look like. It is based on 
+when we provided 30 minutes for code review, so either use your whole time in 
+this way, or shorten to what fits your needs best. For access, please message 
+Jessica on Slack.
