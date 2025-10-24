@@ -2,7 +2,7 @@
 
 This presentation was given by Aubrey Odom in lab meeting on 7/17/25.
 
-You can download the powerpoint from GitHub here: [Download](<>)
+You can download the powerpoint from GitHub here: [Download](<https://github.com/wejlab/jlabwiki/blob/main/docs/assets/Sharing%20R%20Packages%20lab%20meeting.pptx>)
 
 ## 🧠 What This Presentation Covers
 
