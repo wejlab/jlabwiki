@@ -19,7 +19,6 @@ nav:
         - 'lab_meeting.md'
         - 'protected_time.md'
         - 'slack.md'
-        - 'lab_retreat_2025.md'
         - 'annual_checkin.md'
         - 'grant_timelines.md'
         - 'grant_outline.md'
@@ -30,6 +29,7 @@ nav:
         - 'learning_resources/r_packages.md'
         - 'learning_resources/sharing_r_packages.md'
         - 'learning_resources/metascope.md'
+        - 'learning_resources/statistics_in_bioinformatics.md'
     - Wiki Ideas: 'wiki_ideas.md'
 
 extra_css:
