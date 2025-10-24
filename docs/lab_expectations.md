@@ -55,15 +55,15 @@ play a significant role in our ability to succeed together!
 
 Goals to keep in mind:
 - Postdocs and research scientists: Aim to publish two first-author papers per
-  year.
-- Students: Shoot for one first-author publication per year.
+  year.  
+- Students: Shoot for one first-author publication per year.  
 - In addition to first author papers, you should be involved in multiple
   collaborative papers, either within the lab or with external collaborators.
   Students should have clearly defined Aims and Thesis goals, but the lines for
   postdocs and research scientists are more blurry – make every effort to engage
-  with others to make your (and their) work better! 
+  with others to make your (and their) work better!  
 - These targets might shift depending on other assignments (Evan will let you
-  know if that’s the case).
+  know if that’s the case).  
 
 **_Bottom line:_** we’re here to do great science and enjoy the ride. Let’s keep the
 momentum going!  
@@ -103,14 +103,14 @@ support!
 As you are working on projects, presenting results, submitting grants, and
 publishing papers, strive for the highest quality of science possible. 
 
-This includes:
-- Being familiar with best practices within the field
-- Utilizing style guides
-- Making your work publicly available and reproducible
-- Engaging in proofreading and having your work reviewed by Pod/lab members
-- Requesting work-in-progress code reviews and final code reviews
-- Acknowledging individuals, tools, and the work of others in your own work
-- Creating visually appealing and informative figures.
+This includes:  
+- Being familiar with best practices within the field  
+- Utilizing style guides  
+- Making your work publicly available and reproducible  
+- Engaging in proofreading and having your work reviewed by Pod/lab members  
+- Requesting work-in-progress code reviews and final code reviews  
+- Acknowledging individuals, tools, and the work of others in your own work  
+- Creating visually appealing and informative figures  
 
 The lab wiki contains information on how to accomplish many of these tasks, but
 please reach out to others for assistance as needed, especially on first-time
