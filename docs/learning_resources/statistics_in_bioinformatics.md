@@ -11,8 +11,9 @@ An overview of statistical tools used in transcriptomics (and other -omics data)
 ## 📘 What You'll Learn
 
 Basic Principles of:
-- Data Quality, Normalization and Batch Correction
-- Statistical Inference
-- Functional Enrichment and Pathway Analysis
-- Modeling and Prediction
-- Integration Across Data Sets and Modalities
+
+- Data Quality, Normalization and Batch Correction  
+- Statistical Inference  
+- Functional Enrichment and Pathway Analysis  
+- Modeling and Prediction  
+- Integration Across Data Sets and Modalities  
