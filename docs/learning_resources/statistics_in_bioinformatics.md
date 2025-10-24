@@ -1,8 +1,8 @@
-# Statistics Princples in Bioinformatics
+# Statistics Principles in Bioinformatics
 
 This presentation was given by Xutao Wang in lab meeting on 10/23/25.
 
-You can download the powerpoint from GitHub here: [Download](<https://github.com/wejlab/jlabwiki/blob/main/docs/assets/Statistics_Principles_in_Bioinformatics.pptx>)
+You can download the PowerPoint from GitHub here: [Download](<https://github.com/wejlab/jlabwiki/blob/main/docs/assets/Statistics_Principles_in_Bioinformatics.pptx>)
 
 ## 🧠 What This Presentation Covers
 
